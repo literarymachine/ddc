@@ -14,16 +14,17 @@
   <script src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap.min.js"></script>
   <script src="js/csv_to_html_table.js"></script>
     <script type="text/javascript" class="init">
-      init_table({
-      csv_path: 'ddc.csv',
-      element: 'ddc',
-      csv_options: {"separator": "|"},
-      datatables_options: {
-          "lengthMenu": false,
-          "order": [[ 0, "asc" ]],
-          "paging": false}
-  
-});
+      $(document).ready(function() {
+        init_table({
+          csv_path: 'ddc.csv',
+          element: 'ddc',
+          csv_options: {"separator": "|"},
+          datatables_options: {
+            "lengthMenu": false,
+            "order": [[ 0, "asc" ]],
+            "paging": false}
+        });
+      });
     </script>
     <h1>DDC Zugriff auf die ZDB</h1>
     <div id="ddc"></div>
