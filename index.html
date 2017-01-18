@@ -22,7 +22,19 @@
           datatables_options: {
             "lengthMenu": false,
             "order": [[ 0, "asc" ]],
-            "paging": false}
+            "paging": false,
+            "columnDefs": [
+            {
+                "render": function ( data, type, row ) {
+                    var online = '<a href="http://dispatch.opac.d-nb.de/CMD?ACT=SRCHA&IKT=8575&TRM=' + row[0] + '+mat+o">alle</a> | ';
+                        online += '<a href="http://dispatch.opac.d-nb.de/CMD?ACT=SRCHA&IKT=8575&TRM=' + row[0] + '+mat+o+kfr+(lf|kw|kf)">nur kostenfreie</a> | ';
+                        online += '<a href="http://dispatch.opac.d-nb.de/CMD?ACT=SRCHA&IKT=8575&TRM=' + row[0] + '+mat+o+kfr+nl">Nationallizenzen</a> | ';
+                    return online;
+                },
+                "targets": 2
+            }
+            ]
+          }
         });
       });
     </script>
