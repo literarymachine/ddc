@@ -28,10 +28,17 @@
                 "render": function ( data, type, row ) {
                     var online = '<a href="http://dispatch.opac.d-nb.de/CMD?ACT=SRCHA&IKT=8575&TRM=' + row[0] + '+mat+o">alle</a> | ';
                         online += '<a href="http://dispatch.opac.d-nb.de/CMD?ACT=SRCHA&IKT=8575&TRM=' + row[0] + '+mat+o+kfr+(lf|kw|kf)">nur kostenfreie</a> | ';
-                        online += '<a href="http://dispatch.opac.d-nb.de/CMD?ACT=SRCHA&IKT=8575&TRM=' + row[0] + '+mat+o+kfr+nl">Nationallizenzen</a> | ';
+                        online += '<a href="http://dispatch.opac.d-nb.de/CMD?ACT=SRCHA&IKT=8575&TRM=' + row[0] + '+mat+o+kfr+nl">Nationallizenzen</a>';
                     return online;
                 },
                 "targets": 2
+            },
+            {
+                "render": function ( data, type, row ) {
+                    var link = '<a href="http://dispatch.opac.d-nb.de/CMD?ACT=SRCHA&IKT=8575&SRT=LST_ty&TRM=' + data + '">' + data +'</a>';
+                    return link;
+                },
+                "targets": 0
             }
             ]
           }
