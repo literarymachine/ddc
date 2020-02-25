@@ -9,6 +9,7 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+
 <http://dewey.info/scheme/edition/e23/> a skos:ConceptScheme ;
     dct:description "Top classes of the Dewey Decimal Classification (DDC)"@en ;
     dct:publisher <http://ld.zdb-services.de/resource/organisations/DE-600> ;
