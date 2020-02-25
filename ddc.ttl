@@ -1,3 +1,4 @@
+@prefix : <https://w3id.org/zdb/ddc/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,8 +10,7 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-
-<http://dewey.info/scheme/edition/e23/> a skos:ConceptScheme ;
+:scheme a skos:ConceptScheme ;
     dct:description "Top classes of the Dewey Decimal Classification (DDC)"@en ;
     dct:publisher <http://ld.zdb-services.de/resource/organisations/DE-600> ;
     dct:source <https://raw.githubusercontent.com/Zeitschriftendatenbank/ddc/gh-pages/ddc.ttl> ;
@@ -20,75 +20,75 @@
     dct:issued "2020-02-24"^^xsd:date ;
     dct:modified "2020-02-24"^^xsd:date ;
     vann:preferredNamespacePrefix "ddc" ;
-    vann:preferredNamespaceUri "http://dewey.info/class/" ;
-    skos:hasTopConcept <http://dewey.info/class/000/e23/> ,
-        <http://dewey.info/class/100/e23/> ,
-        <http://dewey.info/class/200/e23/> ,
-        <http://dewey.info/class/300/e23/> ,
-        <http://dewey.info/class/400/e23/> ,
-        <http://dewey.info/class/500/e23/> ,
-        <http://dewey.info/class/600/e23/> ,
-        <http://dewey.info/class/700/e23/> ,
-        <http://dewey.info/class/800/e23/> ,
-        <http://dewey.info/class/900/e23/> .
+    vann:preferredNamespaceUri "https://w3id.org/zdb/ddc/" ;
+    skos:hasTopConcept :n000 ,
+        :n100 ,
+        :n200 ,
+        :n300 ,
+        :n400 ,
+        :n500 ,
+        :n600 ,
+        :n700 ,
+        :n800 ,
+        :n900 .
 
-<http://dewey.info/class/000/e23/> a skos:Concept ;
+:n000 a skos:Concept ;
     skos:notation "000" ;
-    skos:topConceptOf <http://dewey.info/scheme/edition/e23/> ;
-    skos:inScheme <http://dewey.info/scheme/edition/e23/> ;
+    skos:topConceptOf :scheme ;
+    skos:inScheme :scheme ;
     skos:prefLabel "Computer science, information & general works"@en ; 
     skos:prefLabel "Informatik, Informationswissenschaft, allgemeine Werke"@de .
-<http://dewey.info/class/100/e23/> a skos:Concept ;
+:n100 a skos:Concept ;
     skos:notation "100" ;
-    skos:topConceptOf <http://dewey.info/scheme/edition/e23/> ;
-    skos:inScheme <http://dewey.info/scheme/edition/e23/> ;
+    skos:topConceptOf :scheme ;
+    skos:inScheme :scheme ;
     skos:prefLabel "Philosophy & psychology"@en ;
     skos:prefLabel "Philosophie und Psychologie"@de .
-<http://dewey.info/class/200/e23/> a skos:Concept ;
+:n200 a skos:Concept ;
     skos:notation "200" ;
-    skos:topConceptOf <http://dewey.info/scheme/edition/e23/> ;
-    skos:inScheme <http://dewey.info/scheme/edition/e23/> ;
+    skos:topConceptOf :scheme ;
+    skos:inScheme :scheme ;
     skos:prefLabel "Religion"@en ;
     skos:prefLabel "Religion, Religionsphilosophie"@de .
-<http://dewey.info/class/300/e23/> a skos:Concept ;
+:n300 a skos:Concept ;
     skos:notation "300" ;
-    skos:topConceptOf <http://dewey.info/scheme/edition/e23/> ;
-    skos:inScheme <http://dewey.info/scheme/edition/e23/> ;
+    skos:topConceptOf :scheme ;
+    skos:inScheme :scheme ;
     skos:prefLabel "Social sciences"@en ;
     skos:prefLabel "Sozialwissenschaften, Soziologie, Anthropologie"@de .
-<http://dewey.info/class/400/e23/> a skos:Concept ;
+:n400 a skos:Concept ;
     skos:notation "400" ;
-    skos:topConceptOf <http://dewey.info/scheme/edition/e23/> ;
-    skos:inScheme <http://dewey.info/scheme/edition/e23/> ;
+    skos:topConceptOf :scheme ;
+    skos:inScheme :scheme ;
     skos:prefLabel "Language"@en ;
     skos:prefLabel "Sprache, Linguistik"@de .
-<http://dewey.info/class/500/e23/> a skos:Concept ;
+:n500 a skos:Concept ;
     skos:notation "500" ;
-    skos:topConceptOf <http://dewey.info/scheme/edition/e23/> ;
-    skos:inScheme <http://dewey.info/scheme/edition/e23/> ;
+    skos:topConceptOf :scheme ;
+    skos:inScheme :scheme ;
     skos:prefLabel "Pure Science"@en ;
     skos:prefLabel "Naturwissenschaften und Mathematik"@de .
-<http://dewey.info/class/600/e23/> a skos:Concept ;
+:n600 a skos:Concept ;
     skos:notation "600" ;
-    skos:topConceptOf <http://dewey.info/scheme/edition/e23/> ;
-    skos:inScheme <http://dewey.info/scheme/edition/e23/> ;
+    skos:topConceptOf :scheme ;
+    skos:inScheme :scheme ;
     skos:prefLabel "Technology"@en ;
     skos:prefLabel "Technik, Medizin, angewandte Wissenschaften"@de .
-<http://dewey.info/class/700/e23/> a skos:Concept ;
+:n700 a skos:Concept ;
     skos:notation "700" ;
-    skos:topConceptOf <http://dewey.info/scheme/edition/e23/> ;
-    skos:inScheme <http://dewey.info/scheme/edition/e23/> ;
+    skos:topConceptOf :scheme ;
+    skos:inScheme :scheme ;
     skos:prefLabel "Arts & recreation"@en ;
     skos:prefLabel "Künste, Bildende Kunst allgemein"@de .
-<http://dewey.info/class/800/e23/> a skos:Concept ;
+:n800 a skos:Concept ;
     skos:notation "800" ;
-    skos:topConceptOf <http://dewey.info/scheme/edition/e23/> ;
-    skos:inScheme <http://dewey.info/scheme/edition/e23/> ;
+    skos:topConceptOf :scheme ;
+    skos:inScheme :scheme ;
     skos:prefLabel "Literature"@en ;
     skos:prefLabel "Literatur, Rhetorik, Literaturwissenschaft"@de .
-<http://dewey.info/class/900/e23/> a skos:Concept ;
+:n900 a skos:Concept ;
     skos:notation "900" ;
-    skos:topConceptOf <http://dewey.info/scheme/edition/e23/> ;
-    skos:inScheme <http://dewey.info/scheme/edition/e23/> ;
+    skos:topConceptOf :scheme ;
+    skos:inScheme :scheme ;
     skos:prefLabel "History & geography"@en ;
     skos:prefLabel "Geschichte und Geografie"@de .
