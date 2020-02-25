@@ -34,41 +34,61 @@
 
 <http://dewey.info/class/000/e23/> a skos:Concept ;
     skos:notation "000" ;
-    skos:prefLabel "Computer science, information & general works"@en ;
+    skos:topConceptOf <http://dewey.info/scheme/edition/e23/> ;
+    skos:inScheme <http://dewey.info/scheme/edition/e23/> ;
+    skos:prefLabel "Computer science, information & general works"@en ; 
     skos:prefLabel "Informatik, Informationswissenschaft, allgemeine Werke"@de .
 <http://dewey.info/class/100/e23/> a skos:Concept ;
     skos:notation "100" ;
+    skos:topConceptOf <http://dewey.info/scheme/edition/e23/> ;
+    skos:inScheme <http://dewey.info/scheme/edition/e23/> ;
     skos:prefLabel "Philosophy & psychology"@en ;
     skos:prefLabel "Philosophie und Psychologie"@de .
 <http://dewey.info/class/200/e23/> a skos:Concept ;
     skos:notation "200" ;
+    skos:topConceptOf <http://dewey.info/scheme/edition/e23/> ;
+    skos:inScheme <http://dewey.info/scheme/edition/e23/> ;
     skos:prefLabel "Religion"@en ;
     skos:prefLabel "Religion, Religionsphilosophie"@de .
 <http://dewey.info/class/300/e23/> a skos:Concept ;
     skos:notation "300" ;
+    skos:topConceptOf <http://dewey.info/scheme/edition/e23/> ;
+    skos:inScheme <http://dewey.info/scheme/edition/e23/> ;
     skos:prefLabel "Social sciences"@en ;
     skos:prefLabel "Sozialwissenschaften, Soziologie, Anthropologie"@de .
 <http://dewey.info/class/400/e23/> a skos:Concept ;
     skos:notation "400" ;
+    skos:topConceptOf <http://dewey.info/scheme/edition/e23/> ;
+    skos:inScheme <http://dewey.info/scheme/edition/e23/> ;
     skos:prefLabel "Language"@en ;
     skos:prefLabel "Sprache, Linguistik"@de .
 <http://dewey.info/class/500/e23/> a skos:Concept ;
     skos:notation "500" ;
+    skos:topConceptOf <http://dewey.info/scheme/edition/e23/> ;
+    skos:inScheme <http://dewey.info/scheme/edition/e23/> ;
     skos:prefLabel "Pure Science"@en ;
     skos:prefLabel "Naturwissenschaften und Mathematik"@de .
 <http://dewey.info/class/600/e23/> a skos:Concept ;
     skos:notation "600" ;
+    skos:topConceptOf <http://dewey.info/scheme/edition/e23/> ;
+    skos:inScheme <http://dewey.info/scheme/edition/e23/> ;
     skos:prefLabel "Technology"@en ;
     skos:prefLabel "Technik, Medizin, angewandte Wissenschaften"@de .
 <http://dewey.info/class/700/e23/> a skos:Concept ;
     skos:notation "700" ;
+    skos:topConceptOf <http://dewey.info/scheme/edition/e23/> ;
+    skos:inScheme <http://dewey.info/scheme/edition/e23/> ;
     skos:prefLabel "Arts & recreation"@en ;
     skos:prefLabel "Künste, Bildende Kunst allgemein"@de .
 <http://dewey.info/class/800/e23/> a skos:Concept ;
     skos:notation "800" ;
+    skos:topConceptOf <http://dewey.info/scheme/edition/e23/> ;
+    skos:inScheme <http://dewey.info/scheme/edition/e23/> ;
     skos:prefLabel "Literature"@en ;
     skos:prefLabel "Literatur, Rhetorik, Literaturwissenschaft"@de .
 <http://dewey.info/class/900/e23/> a skos:Concept ;
     skos:notation "900" ;
+    skos:topConceptOf <http://dewey.info/scheme/edition/e23/> ;
+    skos:inScheme <http://dewey.info/scheme/edition/e23/> ;
     skos:prefLabel "History & geography"@en ;
     skos:prefLabel "Geschichte und Geografie"@de .
