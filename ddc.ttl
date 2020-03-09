@@ -21,72 +21,72 @@
     dct:modified "2020-02-24"^^xsd:date ;
     vann:preferredNamespacePrefix "ddc" ;
     vann:preferredNamespaceUri "https://w3id.org/zdb/ddc/" ;
-    skos:hasTopConcept :n000 ,
-        :n100 ,
-        :n200 ,
-        :n300 ,
-        :n400 ,
-        :n500 ,
-        :n600 ,
-        :n700 ,
-        :n800 ,
-        :n900 .
+    skos:hasTopConcept :n0 ,
+        :n1 ,
+        :n2 ,
+        :n3 ,
+        :n4 ,
+        :n5 ,
+        :n6 ,
+        :n7 ,
+        :n8 ,
+        :n9 .
 
-:n000 a skos:Concept ;
+:n0 a skos:Concept ;
     skos:notation "000" ;
     skos:topConceptOf :scheme ;
     skos:inScheme :scheme ;
     skos:prefLabel "Computer science, information & general works"@en ; 
     skos:prefLabel "Informatik, Informationswissenschaft, allgemeine Werke"@de .
-:n100 a skos:Concept ;
+:n1 a skos:Concept ;
     skos:notation "100" ;
     skos:topConceptOf :scheme ;
     skos:inScheme :scheme ;
     skos:prefLabel "Philosophy & psychology"@en ;
     skos:prefLabel "Philosophie und Psychologie"@de .
-:n200 a skos:Concept ;
+:n2 a skos:Concept ;
     skos:notation "200" ;
     skos:topConceptOf :scheme ;
     skos:inScheme :scheme ;
     skos:prefLabel "Religion"@en ;
     skos:prefLabel "Religion, Religionsphilosophie"@de .
-:n300 a skos:Concept ;
+:n3 a skos:Concept ;
     skos:notation "300" ;
     skos:topConceptOf :scheme ;
     skos:inScheme :scheme ;
     skos:prefLabel "Social sciences"@en ;
     skos:prefLabel "Sozialwissenschaften, Soziologie, Anthropologie"@de .
-:n400 a skos:Concept ;
+:n4 a skos:Concept ;
     skos:notation "400" ;
     skos:topConceptOf :scheme ;
     skos:inScheme :scheme ;
     skos:prefLabel "Language"@en ;
     skos:prefLabel "Sprache, Linguistik"@de .
-:n500 a skos:Concept ;
+:n5 a skos:Concept ;
     skos:notation "500" ;
     skos:topConceptOf :scheme ;
     skos:inScheme :scheme ;
     skos:prefLabel "Pure Science"@en ;
     skos:prefLabel "Naturwissenschaften und Mathematik"@de .
-:n600 a skos:Concept ;
+:n6 a skos:Concept ;
     skos:notation "600" ;
     skos:topConceptOf :scheme ;
     skos:inScheme :scheme ;
     skos:prefLabel "Technology"@en ;
     skos:prefLabel "Technik, Medizin, angewandte Wissenschaften"@de .
-:n700 a skos:Concept ;
+:n7 a skos:Concept ;
     skos:notation "700" ;
     skos:topConceptOf :scheme ;
     skos:inScheme :scheme ;
     skos:prefLabel "Arts & recreation"@en ;
     skos:prefLabel "Künste, Bildende Kunst allgemein"@de .
-:n800 a skos:Concept ;
+:n8 a skos:Concept ;
     skos:notation "800" ;
     skos:topConceptOf :scheme ;
     skos:inScheme :scheme ;
     skos:prefLabel "Literature"@en ;
     skos:prefLabel "Literatur, Rhetorik, Literaturwissenschaft"@de .
-:n900 a skos:Concept ;
+:n9 a skos:Concept ;
     skos:notation "900" ;
     skos:topConceptOf :scheme ;
     skos:inScheme :scheme ;
